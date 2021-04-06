@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+/* line 11, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -17,6 +18,7 @@ html {
 /**
  * Remove the margin in all browsers.
  */
+/* line 23, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 body {
   margin: 0;
 }
@@ -24,6 +26,7 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
+/* line 31, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 main {
   display: block;
 }
@@ -32,6 +35,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+/* line 40, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -43,6 +47,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+/* line 53, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -56,6 +61,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 64, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -68,6 +74,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
+/* line 76, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 a {
   background-color: transparent;
 }
@@ -76,6 +83,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+/* line 85, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -88,6 +96,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
+/* line 95, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 b,
 strong {
   font-weight: bolder;
@@ -97,6 +106,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 105, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 code,
 kbd,
 samp {
@@ -109,6 +119,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
+/* line 116, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -117,6 +128,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+/* line 125, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -125,10 +137,12 @@ sup {
   vertical-align: baseline;
 }
 
+/* line 133, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
+/* line 137, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 sup {
   top: -0.5em;
 }
@@ -138,6 +152,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
+/* line 148, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 img {
   border-style: none;
 }
@@ -148,6 +163,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
+/* line 160, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -167,6 +183,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
+/* line 176, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -177,6 +194,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
+/* line 186, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -186,6 +204,7 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
+/* line 195, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -196,6 +215,7 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
+/* line 206, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -207,6 +227,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
+/* line 218, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -217,6 +238,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
+/* line 229, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -227,6 +249,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
+/* line 240, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -245,6 +268,7 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+/* line 253, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 progress {
   vertical-align: baseline;
 }
@@ -252,6 +276,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
+/* line 261, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -260,6 +285,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
+/* line 270, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -271,6 +297,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
+/* line 280, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -280,6 +307,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
+/* line 290, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -290,6 +318,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
+/* line 299, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -298,6 +327,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
+/* line 308, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -310,6 +340,7 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
+/* line 320, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 details {
   display: block;
 }
@@ -317,6 +348,7 @@ details {
 /*
  * Add the correct display in all browsers.
  */
+/* line 328, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 summary {
   display: list-item;
 }
@@ -326,6 +358,7 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
+/* line 339, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 template {
   display: none;
 }
@@ -333,6 +366,7 @@ template {
 /**
  * Add the correct display in IE 10.
  */
+/* line 347, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -340,16 +374,19 @@ template {
 /* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
+/* line 8, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_typography.scss */
 * {
   font-family: 'Lato', sans-serif;
   color: #777;
   box-sizing: border-box;
 }
 
+/* line 14, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_typography.scss */
 p {
   line-height: 1.45em;
 }
 
+/* line 18, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_typography.scss */
 a {
   text-decoration: none;
 }
@@ -357,21 +394,25 @@ a {
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
+/* line 27, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_typography.scss */
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
 }
 
+/* line 32, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
   color: #777;
 }
 
+/* line 37, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_typography.scss */
 .link {
   color: #51ddfc;
   font-weight: 700;
 }
 
+/* line 42, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/base/_typography.scss */
 .blockquote {
   font-size: 1.5em;
   font-weight: 300;
@@ -385,6 +426,7 @@ a {
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
+/* line 5, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
 .btn {
   margin-top: 15px;
   width: 100%;
@@ -395,22 +437,27 @@ a {
   border-radius: 5px;
 }
 
+/* line 15, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
+/* line 19, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
+/* line 23, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
+/* line 27, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
+/* line 31, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
 .warning {
   background-color: #fd7856;
 }
@@ -418,10 +465,12 @@ a {
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
+/* line 5, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_forms.scss */
 .form {
   flex-basis: 100%;
 }
 
+/* line 9, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_forms.scss */
 .input {
   display: block;
   width: 94%;
@@ -431,6 +480,7 @@ a {
   border-bottom: 5px solid #58e1c1;
 }
 
+/* line 18, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_forms.scss */
 .hidden {
   position: absolute;
   left: -10000px;
@@ -443,16 +493,19 @@ a {
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
+/* line 5, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .container {
   padding: 0 10px;
 }
 
+/* line 9, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
 }
 
+/* line 15, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 [class^=col] {
   margin-top: 10px;
   flex-basis: 100%;
@@ -461,54 +514,67 @@ a {
   border-radius: 5px;
 }
 
+/* line 23, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .theme.col-1 {
   background-color: #927bc1;
 }
 
+/* line 27, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .theme.col-2 {
   background-color: #fd7856;
 }
 
+/* line 31, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .theme.col-3 {
   background-color: #deb2ee;
 }
 
+/* line 35, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .theme.col-4 {
   background-color: #7ee6fd;
 }
 
+/* line 39, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .theme.col-5 {
   background-color: #88d9a0;
 }
 
+/* line 43, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .theme.col-6 {
   background-color: #4da2bb;
 }
 
+/* line 47, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .theme.col-7 {
   background-color: #ec9fa3;
 }
 
+/* line 51, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .theme.col-8 {
   background-color: #fd9f85;
 }
 
+/* line 55, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .theme.col-9 {
   background-color: #e4757a;
 }
 
+/* line 59, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .theme.col-10 {
   background-color: #63cc82;
 }
 
+/* line 63, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .theme.col-11 {
   background-color: #51ddfc;
 }
 
+/* line 67, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .theme.col-12 {
   background-color: #58e1c1;
 }
 
+/* line 71, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_grid.scss */
 .card {
   flex-basis: 100%;
 }
@@ -516,6 +582,7 @@ a {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
+/* line 5, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_images.scss */
 .img-avatar {
   display: block;
   margin-left: auto;
@@ -525,6 +592,7 @@ a {
   max-height: 100%;
 }
 
+/* line 14, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -535,6 +603,7 @@ a {
   border: 1px solid #ccc;
 }
 
+/* line 24, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;
@@ -545,79 +614,101 @@ a {
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
+  /* line 6, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .container {
     max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+  /* line 13, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+  /* line 19, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .row {
     flex-direction: row;
   }
+  /* line 23, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
+  /* line 30, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
+  /* line 34, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
+  /* line 38, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
+  /* line 42, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .col-3 {
     flex-basis: 25.00%;
   }
+  /* line 46, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
+  /* line 50, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
+  /* line 54, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .col-6 {
     flex-basis: 50.00%;
   }
+  /* line 58, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
+  /* line 62, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
+  /* line 66, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .col-9 {
     flex-basis: 75.00%;
   }
+  /* line 70, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
+  /* line 74, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
+  /* line 78, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .col-12 {
     flex-basis: 100%;
   }
+  /* line 82, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
+  /* line 88, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .nav-link {
     flex-basis: 100px;
   }
+  /* line 92, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .btn {
     padding: 10px 30px;
   }
+  /* line 96, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .btn + .btn {
     margin-left: 10px;
   }
+  /* line 100, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
@@ -627,6 +718,7 @@ a {
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
+/* line 5, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
 .nav {
   padding-left: 0;
   flex-basis: 100%;
@@ -634,6 +726,7 @@ a {
   flex-direction: column;
 }
 
+/* line 12, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -643,7 +736,10 @@ a {
   transition: background-color .2s ease-in-out, color .2s ease-in-out;
 }
 
+/* line 23, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
+
+/*# sourceMappingURL=styles.css.map */
