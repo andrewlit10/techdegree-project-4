@@ -10,24 +10,39 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-}
+  &:hover {
+    transition: background-color .2s ease-in;
+  }
 
-.default {
-  background-color: $light-blue;
-}
+  &.default {
+    background-color: $light-blue;
+    &:hover {
+    background-color: lighten($light-blue, 15%);
+    }
+  }
+  &.error {
+    background-color: $light-red;
+    &:hover {
+    background-color: lighten($light-red, 15%);
+    }
+  }
+  &.info {
+    background-color: #927bc1;
+    &:hover {
+    background-color: lighten(#927bc1, 15%);
+    }
+  }
+  &.success {
+    background-color: $forest-green;
+    &:hover {
+    background-color: lighten($forest-green, 15%);
+    }
+  }
+  &.warning {
+    background-color: #fd7856;
+    &:hover {
+    background-color: lighten(#fd7856, 15%);
+    }
+  }
 
-.error {
-  background-color: $light-red;
-}
-
-.info {
-  background-color: #927bc1;
-}
-
-.success {
-  background-color: $forest-green;
-}
-
-.warning {
-  background-color: #fd7856;
 }

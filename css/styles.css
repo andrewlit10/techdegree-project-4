@@ -437,29 +437,59 @@ a {
   border-radius: 5px;
 }
 
-/* line 15, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
-.default {
+/* line 13, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
+.btn:hover {
+  transition: background-color .2s ease-in;
+}
+
+/* line 17, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
+.btn.default {
   background-color: #51ddfc;
 }
 
 /* line 19, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
-.error {
-  background-color: #e4757a;
+.btn.default:hover {
+  background-color: #9cecfd;
 }
 
 /* line 23, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
-.info {
+.btn.error {
+  background-color: #e4757a;
+}
+
+/* line 25, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
+.btn.error:hover {
+  background-color: #f1b5b8;
+}
+
+/* line 29, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
+.btn.info {
   background-color: #927bc1;
 }
 
-/* line 27, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
-.success {
+/* line 31, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
+.btn.info:hover {
+  background-color: #bdafd9;
+}
+
+/* line 35, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
+.btn.success {
   background-color: #63cc82;
 }
 
-/* line 31, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
-.warning {
+/* line 37, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
+.btn.success:hover {
+  background-color: #9ddfb0;
+}
+
+/* line 41, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
+.btn.warning {
   background-color: #fd7856;
+}
+
+/* line 43, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_buttons.scss */
+.btn.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* ============================================= */
@@ -611,6 +641,34 @@ a {
 }
 
 /* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+/* line 5, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
+.nav {
+  padding-left: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 10, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
+.nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+/* line 20, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
+.nav-link:hover {
+  color: #fff;
+  background-color: #99edd9;
+  transition: background-color .2s ease-in;
+}
+
+/* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
@@ -713,34 +771,6 @@ a {
     margin-left: initial;
     margin-right: initial;
   }
-}
-
-/* ============================================= */
-/*              Navigation                       */
-/* ============================================= */
-/* line 5, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
-.nav {
-  padding-left: 0;
-  flex-basis: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-/* line 10, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
-.nav-link {
-  text-align: center;
-  border-radius: 5px;
-  padding: 10px 0;
-  display: block;
-  width: 100%;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
-}
-
-/* line 20, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
-.nav-link:hover {
-  color: #fff;
-  background-color: #99edd9;
-  transition: background-color .2s ease-in;
 }
 
 /*# sourceMappingURL=styles.css.map */
