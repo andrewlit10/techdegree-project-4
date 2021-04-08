@@ -726,7 +726,7 @@ a {
   flex-direction: column;
 }
 
-/* line 12, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
+/* line 10, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -736,7 +736,7 @@ a {
   transition: background-color .2s ease-in-out, color .2s ease-in-out;
 }
 
-/* line 23, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
+/* line 20, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
