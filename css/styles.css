@@ -661,13 +661,6 @@ a {
   transition: background-color .2s ease-in-out, color .2s ease-in-out;
 }
 
-/* line 20, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
-.nav-link:hover {
-  color: #fff;
-  background-color: #99edd9;
-  transition: background-color .2s ease-in;
-}
-
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
