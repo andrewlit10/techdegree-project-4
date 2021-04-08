@@ -739,7 +739,8 @@ a {
 /* line 20, ../../../../../Users/alitt/Documents/Code/techdegree-project-4/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
-  background-color: #58e1c1;
+  background-color: #99edd9;
+  transition: background-color .2s ease-in;
 }
 
 /*# sourceMappingURL=styles.css.map */

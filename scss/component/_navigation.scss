@@ -19,6 +19,7 @@
   }
   &-link:hover {
     color: #fff;
-    background-color: $mint-green;
+    background-color: lighten($mint-green, 15%);
+    transition: background-color .2s ease-in;
   }
 }
